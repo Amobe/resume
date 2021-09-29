@@ -53,7 +53,7 @@ jobs:
   publish-gh-pages:
     runs-on: ubuntu-latest
     env:
-      MY_SECRET: ${{ADMIN_TOKEN}}
+      MY_SECRET: ${{secrets.ADMIN_TOKEN}}
       USER_NAME: lexamo
       USER_EMAIL: lexamo.liu@gmail.com
       PUBLISH_DIR: ./_site
