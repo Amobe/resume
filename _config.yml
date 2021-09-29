@@ -1,0 +1,176 @@
+# Site
+repository: amobe/resume
+# favicon: Directory of your favicon (eg. images/favicon.ico)(optional)
+
+# Content configuration version
+version: 2
+
+# Personal info
+name: Lex Liu
+title: Backend Service Solution Provider
+email: 
+# email_title: Email (Email title override)
+phone: 
+# phone_title: Phone (Phone title override)
+website: 
+# website_title: Web (Website title override)
+
+# Dark Mode (true/false/never)
+darkmode: true
+
+# Social links
+twitter_username: 
+github_username: amobe
+stackoverflow_username: 
+dribbble_username: 
+facebook_username: 
+flickr_username: 
+instagram_username: 
+linkedin_username: lex-liu-85a97577
+xing_username: 
+pinterest_username: 
+youtube_username: 
+googleplus_username: 
+orcid_username: 
+
+# Additional icon links
+# - title: another link
+#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
+#   url: Link url (eg. https://google.com)
+
+# Google Analytics and Tag Manager
+# Using more than one of these may cause issues with reporting
+# gtm: "GTM-0000000"
+# gtag: "UA-00000000-0"
+# google_analytics: "UA-00000000-0"
+
+# About Section
+# about_title: About Me (Use this to override about section title)
+about_profile_image: images/profile.jpg
+about_content: |
+  - 9+ years of software development experience in C, Go, K8s, and Linux,
+  - Contributor in constructing system flexible for scaling up and with relatively low maintenance cost.
+  - Illuminator in building consensus and solidarity regarding cross-functional coordination.
+# about_content: | # this will include new lines to allow paragraphs
+#  Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
+#
+#  You can even add paragraphs by using empty lines like this and add anything else [markdown](https://www.markdownguide.org/getting-started#what-is-markdown) supports such as
+#    - Lists
+#    - Tables
+#    - <a href="google.com">Links</a>
+#    - Images ![alt text](/images/landscape-trees.jpg "Trees")
+
+content:
+  # - title: Projects # Title for the section
+  #   layout: list # Type of content section (list/text)
+  #   content:
+  #     - layout: left
+  #       title: Project name
+  #       link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+  #       link_text: Link Text
+  #       additional_links:
+  #         - title:  Github page for project (eg. sproogen/modern-resume-theme)
+  #           icon: fab fa-github
+  #           url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+  #         - title:  Github page for project (eg. sproogen/modern-resume-theme)
+  #           icon: fab fa-github
+  #           url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+  #       quote: >
+  #         Short overview of the project (optional)
+  #       description: | # this will include new lines to allow paragraphs
+  #         Description about the work on/with the project
+  - title: Experience
+    layout: list
+    content:
+      - layout: right
+        title: Grab
+        link: https://www.grab.com/
+        sub_title: Senior Software Engineer<br>(Backend, Golang)
+        caption: 06/2021 – present<br>(3 months)
+        description: | # this will include new lines to allow paragraphs
+          - Collected requirements, proposed backend solutions, implemented authorization service for 1M users.
+      - layout: right
+        title: JKOPAY
+        link: https://www.jkos.com/
+        sub_title: Backend Team Leader<br>(Backend, Golang, Java)
+        caption: 06/2020 – 04/2021<br>(10 months)
+        description: | # this will include new lines to allow paragraphs
+          - Refactored legacy services, built a messaging platform, enhanced the connection with users.
+          - Increased the software delivery frequency to 400%, about 2 weeks 1 release.
+      - layout: right
+        sub_title: Sr. Software Developer<br>(Backend, Golang)
+        caption: 03/2019 – 06/2020<br>(15 months)
+        description: |
+          - Maintained and enhanced instant messaging service1, increased transmission capability by 10000%.
+          - Reduced GCP costs by 50% and maintained service stability.
+          - New features could be upgraded to the production site in 5 minutes.
+      - layout: right
+        title: D-Link
+        link: https://www.dlink.com/
+        sub_title: Sr. Software Developer<br>(Backend, C)
+        caption: 09/2017 – 03/2019<br>(18 months)
+        description: | 
+          - Implemented the IoT cloud platform which can control 300,000 online devices.
+          - Enhanced the quality of WebSocket that resulted in a 100% increase in connection accepting.
+          - Headed the WebSocket Pool project to prevent losing the connections during upgrading.
+          - Provided the solution of database roles and privileges to comply with GDPR.
+          - Shared the topic "Exploring the secret of the effective teamwork by playing Overcooked!".
+      - layout: right
+        title: Estinet
+        link: https://www.estinet.com/
+        sub_title: Software Developer<br>(OS, C)
+        caption: 09/2014 – 08/2017<br>(36 months)
+        description: | # this will include new lines to allow paragraphs
+          - Developed the system on layer 3 switch and ported Linux kernel module "VRF".
+          - Built deployment tool to execute integration test of routing protocol on the networking simulator.
+      - layout: right
+        title: NTUT Software System Lab
+        sub_title: Postgraduate and ScrumMaster
+        caption: 09/2012 – 06/2014<br>(21 months)
+        description: | # this will include new lines to allow paragraphs
+          - Learned how to choose the suitable software development process for different situations.
+          - Developed an open-source cloud testing platform that can execute mobile test scripts remotely.
+  - title: Project
+    layout: list
+    content:
+      - layout: left
+        title: go-bbs
+        link: https://github.com/Ptt-official-app/go-bbs
+        description: |
+         Implement comment history in user posts ([commit](https://github.com/Ptt-official-app/go-bbs/pull/87)) 
+  - title: Education
+    layout: list
+    content:
+      - layout: right
+        title: National Taipei University of Technology
+        description: |
+          - M.S., Computer Science  (09/2012 – 06/2014)
+          - B.S., Computer Science  (09/2008 - 06/2012)
+
+# Footer
+footer_show_references: true
+# references_title: References on request (Override references text)
+
+# Build settings
+# theme: modern-resume-theme (Use this is you are hosting your resume yourself)
+# remote_theme: sproogen/modern-resume-theme (Use this if you are hosting your resume on GitHub)
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+ - jekyll-seo-tag
+
+exclude : [
+  "Gemfile",
+  "Gemfile.lock",
+  "node_modules",
+  "vendor/bundle/",
+  "vendor/cache/",
+  "vendor/gems/",
+  "vendor/ruby/",
+  "lib/",
+  "scripts/",
+  "docker-compose.yml",
+  ]
